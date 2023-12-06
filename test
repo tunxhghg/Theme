@@ -20,8 +20,3 @@ local create = loadstring(game:HttpGet("https://raw.githubusercontent.com/tunxhg
 	local page10 = Tap4:newpage()
 	local page11 = Tap6:newpage()
 	local page12 = Tap6:newpage()
-	
-
-page1:Button("hilo ",function()
-	setclipboard(fuck u)
-	end)
