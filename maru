@@ -7,7 +7,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 	local Mouse = LocalPlayer:GetMouse()
 	local tween = game:GetService("TweenService")
 	local Red = {RainbowColorValue = 0, HueSelectionPosition = 0}
-	local PresetColor = Color3.fromRGB(66, 64, 65)
+	local PresetColor = Color3.fromRGB(255, 0, 255)
 
 
 	coroutine.wrap(
@@ -107,10 +107,10 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		MainSceen.Name = "MainSceen"
 		MainSceen.Parent = Reduisceen
 		MainSceen.AnchorPoint = Vector2.new(0.5, 0.5)
-		MainSceen.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+		MainSceen.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 		MainSceen.BorderSizePixel = 0
 		MainSceen.Position = UDim2.new(0.5, 0, 0.5, 0)
-		MainSceen.Size = UDim2.new(0, 0, 0, 0)
+		MainSceen.Size = UDim2.new(0, 60, 0, 60)
 		MainSceen.ClipsDescendants = true
 
 		local Main_UiConner  = Instance.new("UICorner")
@@ -133,10 +133,10 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		MakeDraggable(ClickFrame,MainSceen)
 		tween:Create(MainSceen,TweenInfo.new(0.4,Enum.EasingStyle.Back),{Size = UDim2.new(0, 550, 0, 474)}):Play()
 
-		local library = {toggledui = false;}
+		local library = {toggledui = true;}
 		game:GetService("UserInputService").InputBegan:Connect(function(input)
 			pcall(function()
-				if input.KeyCode == Enum.KeyCode.RightControl then
+				if input.KeyCode == Enum.KeyCode.Q then
 					if library.toggledui == false then
 						library.toggledui = true
 						tween:Create(MainSceen,TweenInfo.new(0.4,Enum.EasingStyle.Back,Enum.EasingDirection.In),{Size = UDim2.new(0, 0, 0, 0)}):Play()
@@ -475,7 +475,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 			ScrollingFrame_Pagefrist.Parent = MainPage
 			ScrollingFrame_Pagefrist.Active = true
-			ScrollingFrame_Pagefrist.BackgroundColor3 = Color3.fromRGB(192, 192, 192) -- 64, 64, 64
+			ScrollingFrame_Pagefrist.BackgroundColor3 = Color3.fromRGB(96, 96, 96) -- 64, 64, 64
 			ScrollingFrame_Pagefrist.BorderSizePixel = 0
 			ScrollingFrame_Pagefrist.Size = UDim2.new(0, 518, 0, 375)
 			ScrollingFrame_Pagefrist.ScrollBarThickness = 4
@@ -502,7 +502,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 
 				Pageframe.Parent = ScrollingFrame_Pagefrist
-				Pageframe.BackgroundColor3 = Color3.fromRGB(192, 192, 192)
+				Pageframe.BackgroundColor3 = Color3.fromRGB(96, 96, 96)
 				Pageframe.BorderSizePixel = 0
 				Pageframe.Position = UDim2.new(0.028957529, 0, 0.0496277921, 0)
 				Pageframe.Size = UDim2.new(0, 240, 0, 379)
@@ -513,7 +513,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 				ScrollingFrame_Pageframe.Parent = Pageframe
 				ScrollingFrame_Pageframe.Active = true
-				ScrollingFrame_Pageframe.BackgroundColor3 = Color3.fromRGB(192, 192, 192)
+				ScrollingFrame_Pageframe.BackgroundColor3 = Color3.fromRGB(96, 96, 96)
 				ScrollingFrame_Pageframe.BorderSizePixel = 0
 				ScrollingFrame_Pageframe.Position = UDim2.new(0, 0, -0.0101253344, 0)
 				ScrollingFrame_Pageframe.Size = UDim2.new(0, 240, 0, 379)
