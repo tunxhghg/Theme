@@ -110,7 +110,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		MainSceen.BackgroundColor3 = Color3.fromRGB(102, 102, 255)
 		MainSceen.BorderSizePixel = 0
 		MainSceen.Position = UDim2.new(0.5, 0, 0.5, 0)
-		MainSceen.Size = UDim2.new(0, 1111, 0, 80)
+		MainSceen.Size = UDim2.new(0, 980, 0, 80)
 		MainSceen.ClipsDescendants = true
 
 		local Main_UiConner  = Instance.new("UICorner")
@@ -173,7 +173,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		MainSceen2.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
 		MainSceen2.BorderSizePixel = 0
 		MainSceen2.Position = UDim2.new(0.5, 0, 0.5, 0)
-		MainSceen2.Size = UDim2.new(0, 300, 0, 33)
+		MainSceen2.Size = UDim2.new(0, 800, 0, 83)
 		MainSceen2.ClipsDescendants = true
 
 		local Main_UiConner2  = Instance.new("UICorner")
@@ -193,7 +193,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		ScolTapBarFrame.BorderSizePixel = 0
 		ScolTapBarFrame.BackgroundTransparency = 1
 		ScolTapBarFrame.Position = UDim2.new(0.5, 0, 0.07, 0)
-		ScolTapBarFrame.Size = UDim2.new(0, 800, 0, 65)
+		ScolTapBarFrame.Size = UDim2.new(0, 500, 0, 35)
 		ScolTapBarFrame.ClipsDescendants = true
 
 		local ScrollingFrame_Menubar = Instance.new("ScrollingFrame")
