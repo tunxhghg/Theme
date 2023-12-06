@@ -345,8 +345,8 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 	--Time.AnchorPoint = Vector2.new(0.5, 0.5)
 			Time.BackgroundColor3 =  Color3.fromRGB(64, 64, 64)
 			Time.BorderSizePixel = 0
-			Time.Position =  UDim2.new(0, 0, 0.,0)
-			Time.Size = UDim2.new(0, 0,0,0)
+			Time.Position =  UDim2.new(0, 0, 0, 0)
+			Time.Size = UDim2.new(0, 0, 0, 0)
 			Time.ClipsDescendants = false
 			Time.BackgroundTransparency = 0
 
@@ -424,13 +424,11 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 			MainPage.BackgroundColor3 = Color3.fromRGB(64, 54, 64)
 			MainPage.BorderSizePixel = 0
 			MainPage.Position = UDim2.new(0.5, 0, 0.5, 0) -- UDim2.new(0.0149812736, 0, 0.13, 0)
-			MainPage.Size = UDim2.new(0, 300, 0, 83)
+			MainPage.Size = UDim2.new(0, 0, 0, 0)
 			MainPage.BackgroundTransparency = 1
 			MainPage.ClipsDescendants = true
 			MainPage.Visible = true
 			MainPage.LayoutOrder = PageOrders
-
-
 
 
 			TextButton_Tap.MouseButton1Click:connect(function()
