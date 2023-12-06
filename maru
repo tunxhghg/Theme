@@ -110,7 +110,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		MainSceen.BackgroundColor3 = Color3.fromRGB(102, 102, 255)
 		MainSceen.BorderSizePixel = 0
 		MainSceen.Position = UDim2.new(0.5, 0, 0.5, 0)
-		MainSceen.Size = UDim2.new(-2, 534-20, -2, 30)
+		MainSceen.Size = UDim2.new(-2, 20, -2, 30)
 		MainSceen.ClipsDescendants = true
 
 		local Main_UiConner  = Instance.new("UICorner")
