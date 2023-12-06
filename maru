@@ -109,7 +109,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 		MainSceen.AnchorPoint = Vector2.new(0.5, 0.5)
 		MainSceen.BackgroundColor3 = Color3.fromRGB(102, 102, 255)
 		MainSceen.BorderSizePixel = 0
-		MainSceen.Position = UDim2.new(-5, 0, -5, 0)
+		MainSceen.Position = UDim2.new(20, 300, 5, 7)
 		MainSceen.Size = UDim2.new(0.5, 534-20, 0.5, 30)
 		MainSceen.ClipsDescendants = true
 
