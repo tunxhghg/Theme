@@ -1,0 +1,27 @@
+local create = loadstring(game:HttpGet("https://raw.githubusercontent.com/tunxhghg/Theme/main/maru"))()
+	
+	local Window = create:Win("Tunx Hub")
+	local Tap1 = Window:Taps("General")
+    local Tap4 = Window:Taps("Combat")
+	local Tap2 = Window:Taps("Stats")
+	local Tap3 = Window:Taps("Teleport & Buy")
+	local Tap5 = Window:Taps("Dungeon")
+	local Tap6 = Window:Taps("Misc")
+	
+	local page1 = Tap1:newpage()
+	local page2 = Tap1:newpage()
+	local page3 = Tap2:newpage()
+	local page4 = Tap2:newpage()
+	local page5 = Tap3:newpage()
+	local page6 = Tap3:newpage()
+	local page7 = Tap5:newpage()
+	local page8 = Tap5:newpage()
+	local page9 = Tap4:newpage()
+	local page10 = Tap4:newpage()
+	local page11 = Tap6:newpage()
+	local page12 = Tap6:newpage()
+	
+
+page1:Button("hilo ",function()
+	setclipboard(fuck u)
+	end)
