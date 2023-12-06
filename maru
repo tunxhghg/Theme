@@ -475,11 +475,11 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 			ScrollingFrame_Pagefrist.Parent = MainPage
 			ScrollingFrame_Pagefrist.Active = true
-			ScrollingFrame_Pagefrist.BackgroundColor3 = Color3.fromRGB(64, 64, 64) -- 64, 64, 64
+			ScrollingFrame_Pagefrist.BackgroundColor3 = Color3.fromRGB(192, 192, 192) -- 64, 64, 64
 			ScrollingFrame_Pagefrist.BorderSizePixel = 0
 			ScrollingFrame_Pagefrist.Size = UDim2.new(0, 518, 0, 375)
 			ScrollingFrame_Pagefrist.ScrollBarThickness = 4
-			ScrollingFrame_Pagefrist.ScrollBarImageColor3 = Color3.fromRGB(64, 64, 64) -- 64, 64, 64
+			ScrollingFrame_Pagefrist.ScrollBarImageColor3 = Color3.fromRGB(192, 192, 192) -- 64, 64, 64
 
 			local UIGridLayout_Pagefrist = Instance.new("UIGridLayout")
 			local UIPadding_Pagefrist = Instance.new("UIPadding")
@@ -502,7 +502,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 
 				Pageframe.Parent = ScrollingFrame_Pagefrist
-				Pageframe.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+				Pageframe.BackgroundColor3 = Color3.fromRGB(192, 192, 192)
 				Pageframe.BorderSizePixel = 0
 				Pageframe.Position = UDim2.new(0.028957529, 0, 0.0496277921, 0)
 				Pageframe.Size = UDim2.new(0, 240, 0, 379)
@@ -513,7 +513,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 				ScrollingFrame_Pageframe.Parent = Pageframe
 				ScrollingFrame_Pageframe.Active = true
-				ScrollingFrame_Pageframe.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+				ScrollingFrame_Pageframe.BackgroundColor3 = Color3.fromRGB(192, 192, 192)
 				ScrollingFrame_Pageframe.BorderSizePixel = 0
 				ScrollingFrame_Pageframe.Position = UDim2.new(0, 0, -0.0101253344, 0)
 				ScrollingFrame_Pageframe.Size = UDim2.new(0, 240, 0, 379)
@@ -730,7 +730,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 					TweenService:Create(
 						TextButton_3_Toggle,
 						TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 =  Color3.fromRGB(64, 64, 64)} -- UDim2.new(0, 128, 0, 25)
+						{BackgroundColor3 =  Color3.fromRGB(192, 192, 192)} -- UDim2.new(0, 128, 0, 25)
 					):Play()
 					TweenService:Create(
 						TextButton_2_Toggle,
@@ -750,12 +750,12 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 				TweenService:Create(
 					TextButton_4_Toggle,
 					TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-					{BackgroundColor3 =  Color3.fromRGB(64, 64, 64)} -- UDim2.new(0, 128, 0, 25)
+					{BackgroundColor3 =  Color3.fromRGB(192, 192, 192)} -- UDim2.new(0, 128, 0, 25)
 				):Play()
 				TweenService:Create(
 					TextButton_3_Toggle,
 					TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-					{BackgroundColor3 =  Color3.fromRGB(64, 64, 64)} -- UDim2.new(0, 128, 0, 25)
+					{BackgroundColor3 =  Color3.fromRGB(192, 192, 192)} -- UDim2.new(0, 128, 0, 25)
 				):Play()
 				TweenService:Create(
 					TextButton_2_Toggle,
