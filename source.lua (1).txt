@@ -3085,7 +3085,7 @@ function library:CreateWindow(options, ...)
 					newButton.Parent = sectionHolder
 					newButton.BackgroundColor3 = Color3.new(1, 1, 1)
 					newButton.BackgroundTransparency = 1
-					newButton.Size = UDim2.new(1, 0, 0, 54)
+					newButton.Size = UDim2.new(1, 0, 0, 24)
 					button.Name = "button"
 					button.Parent = newButton
 					button.Active = true
