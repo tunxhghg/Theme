@@ -1313,7 +1313,7 @@ do
 			Button.FontSize = Enum.FontSize.Size14
 			Button.Name = "Button"
 			Button.Parent = Option
-			Button.Size = UDim2.new(1, 0, 1, 0)
+			Button.Size = UDim2.new(2, 0, 2, 0)
 			Button.Text = ""
 			Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Button.TextSize = 14
